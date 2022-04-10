@@ -8,11 +8,12 @@ body {
   background-color: #1F2937;
   display: flex;
   flex-direction: column;
-
+  align-items: center;
 }
 .header {
   display: flex;
   justify-content: space-between;
+  width: 842px;
 }
 .upper-links ul{
   display: flex;
@@ -34,6 +35,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
+  width: 842px;
 }
 .upper-head{
     width: 500px;
@@ -69,6 +71,12 @@ body {
   border-radius: 8px;
   padding: 6px 32px;
 }
+.infobox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 142px;
+}
 .image-place {
   height: 250px;
   width: 500px;
@@ -85,59 +93,113 @@ body {
   font-size: 36px;
   font-weight: 900;
   color: #1F2937;
+  margin: 50px 0;
+}
+.blueboxes {
+  display: flex;
+  gap: 40px;
+}
+.info-image-1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .info-text {
   color: #1F2937;
-  font-size: 18px;
+  font-size: 15px;
+  text-align: justify;
+  text-align-last: center;
+  margin: 0;
+  max-width: 150px;
 }
 .info-box{
   width: 150px;
   height: 150px;
   border: 3px solid #3882f6;
   border-radius: 10px;
+  flex: 0 0 auto;
 }
 .quote {
   background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+.quote-box{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 744px;
 }
 .quote-text {
   font-size: 36px;
   color: #1F2937;
   font-style: italic;
   font-weight: 100;
+  margin: 0;
 }
 .quote-author{
   color: #1F2937;
   font-weight: 900;
   font-size: 18px;
+  margin: 0px 30px 0px 0px;
+}
+
+.lower-container {
+  display: flex;
+  justify-content: center;
 }
 .lower-cfa {
   background-color: #3882f6;
-  width: 800px;
-  height: 150px;
+  width: 842px;
   border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 150px;
+  margin: 80px 0;
+  padding: 40px 0;
+}
+.lower-cfa-text {
+  display: flex;
+  flex-direction: column;
 }
 .lower-cfa h3 {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 600;
   color: #f9faf8;
+  margin: 0;
 }
 .lower-cfa p {
-  font-size: 18px;
+  font-size: 14px;
   color: #E5E7EB;
+  margin: 0;
 }
 .lower-signup{
   color: #f9faf8;
   background-color: #3882f6;
-  border: 3px solid #f9faf8;
-  border-radius: 10px;
-  font-size: 28px;
+  border: 1.5px solid #f9faf8;
+  border-radius: 5px;
+  font-size: 18px;
   font-weight: 600;
+  padding: 5px 30px;
+}
+.lower-signup:active{
+  border: 1px solid #f9faf8;
 }
 .footer {
   background-color: #1F2937;
   color: #E5E7EB;
   font-size: 18px;
   font-weight: 200;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.footer p {
+  margin: 0;
 }
 
 
